@@ -381,6 +381,7 @@ PlacesAutocomplete.propTypes = {
     location: PropTypes.object,
     offset: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     radius: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    sessionToken: PropTypes.object,
     types: PropTypes.array,
   }),
   debounce: PropTypes.number,
